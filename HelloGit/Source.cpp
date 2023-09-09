@@ -7,6 +7,7 @@
 
 using namespace std;
 
+
 // Умови перевірки "гарності" слова тут
 bool isGood(const string& word) {
 
@@ -69,4 +70,5 @@ int main(int argc, char* argv[]) {
     outputFile.close();
 
     return 0;
+
 }
